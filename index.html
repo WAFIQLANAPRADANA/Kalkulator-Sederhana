@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Kalkulator & Konversi Satuan</h1>
+
+        <input type="number" id="angka1" placeholder="Masukkan angka pertama">
+        <input type="number" id="angka2" placeholder="Masukkan angka kedua">
+        
+        <div class="buttons">
+            <button id="tambah">+</button>
+            <button id="kurang">-</button>
+            <button id="kali">×</button>
+            <button id="bagi">÷</button>
+        </div>
+
+        <p>Hasil: <span id="hasil">0</span></p>
+
+        
+
+        <h2>Konversi Satuan</h2>
+       
+        <select id="jenisKonversi">
+            <option value="meter-ke-km">Meter ke Kilometer</option>
+            <option value="km-ke-meter">Kilometer ke Meter</option>
+            <option value="kg-ke-gram">Kilogram ke Gram</option>
+            <option value="gram-ke-kg">Gram ke Kilogram</option>
+            <option value="c-ke-f">Celsius ke Fahrenheit</option>
+            <option value="f-ke-c">Fahrenheit ke Celsius</option>
+        </select>
+        <br>
+        <input type="number" id="nilaiKonversi" placeholder="Masukkan nilai">
+        <button id="konversi">Konversi</button>
+
+        <p>Hasil Konversi: <span id="hasilKonversi">0</span></p>
+    </div>
+
+
+<script src="main.js"></script>
+</body>
+</html>
